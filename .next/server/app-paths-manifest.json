@@ -1,0 +1,5 @@
+{
+  "/event-registration/page": "app/event-registration/page.js",
+  "/protected/page": "app/protected/page.js",
+  "/(auth-pages)/sign-in/page": "app/(auth-pages)/sign-in/page.js"
+}
