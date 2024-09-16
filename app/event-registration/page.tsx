@@ -3,7 +3,7 @@ import { EventRegistration } from "@/components/event-registration"
 const page = () => {
   return (
     <div>
-      <EventRegistration/>
+      <EventRegistration />
     </div>
   )
 }

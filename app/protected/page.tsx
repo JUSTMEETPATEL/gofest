@@ -1,6 +1,9 @@
-import FetchDataSteps from "@/components/tutorial/fetch-data-steps";
+import Hero from "@/components/Hero";
+import BannerStrip from "@/components/BannerStrip"
+import Carousel from "@/components/Carousel"
+import Details from "@/components/Details"
+import Why from "@/components/Why"
 import { createClient } from "@/utils/supabase/server";
-import { InfoIcon } from "lucide-react";
 import { redirect } from "next/navigation";
 
 export default async function ProtectedPage() {
@@ -15,8 +18,14 @@ export default async function ProtectedPage() {
   }
 
   return (
-    <div className="flex-1 w-full flex flex-col gap-12">
-      
+    <div >
+      <section>
+        <Hero />
+        <BannerStrip />
+        <Carousel />
+        <Details />
+        <Why/>
+      </section>
     </div>
   );
 }
