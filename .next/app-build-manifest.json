@@ -1,14 +1,9 @@
 {
   "pages": {
-    "/(auth-pages)/sign-in/page": [
+    "/protected/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(auth-pages)/sign-in/page.js"
-    ],
-    "/(auth-pages)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(auth-pages)/layout.js"
+      "static/chunks/app/protected/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -16,10 +11,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/protected/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/protected/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
