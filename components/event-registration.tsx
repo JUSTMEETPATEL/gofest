@@ -86,14 +86,6 @@ export function EventRegistration() {
               <PlusIcon className="h-4 w-4 mr-2" /> Add Team Member
             </Button>
           </div>
-          <div className="space-y-2">
-            <Label htmlFor="comments">Additional Comments</Label>
-            <Textarea
-              id="comments"
-              placeholder="Any additional information or requests"
-              className="bg-gray-800 border-gray-700 text-white placeholder-gray-400"
-            />
-          </div>
           <Button
             type="submit"
             className="w-full bg-purple-600 hover:bg-purple-700 text-white transition-colors"
