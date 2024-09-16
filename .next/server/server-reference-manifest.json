@@ -1,106 +1,146 @@
 {
   "node": {
-    "01a4764cff20dfb1ec59d753c1e3f74ea582d243": {
+    "1816f4735388f01867ed22fe7e82d0497331d954": {
       "workers": {
-        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!",
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/event-registration/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/page": "rsc",
+        "app/event-registration/page": "rsc",
         "app/(auth-pages)/sign-in/page": "rsc",
         "app/protected/page": "rsc"
       }
     },
-    "0d17c2fa3fad17400637a15280ef168ee696d8bc": {
+    "1c01b786ad6cd1cd190be7199b065c98e4bf5b9c": {
       "workers": {
-        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!",
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/event-registration/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/page": "rsc",
+        "app/event-registration/page": "rsc",
         "app/(auth-pages)/sign-in/page": "rsc",
         "app/protected/page": "rsc"
       }
     },
-    "0ecc6515dcfe777dd3d5525ba21f59c0689a7c60": {
+    "1f374fe7c1ea2722fbd3b8dbeb19222882acb843": {
       "workers": {
-        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!",
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/event-registration/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/page": "rsc",
+        "app/event-registration/page": "rsc",
         "app/(auth-pages)/sign-in/page": "rsc",
         "app/protected/page": "rsc"
       }
     },
-    "2ebffdb862aeed81bd59b0debf72697027697ba7": {
+    "21c79411879df0c1d71aee33f6ccd099136c546b": {
       "workers": {
-        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!",
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/event-registration/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/page": "rsc",
+        "app/event-registration/page": "rsc",
         "app/(auth-pages)/sign-in/page": "rsc",
         "app/protected/page": "rsc"
       }
     },
-    "444fe77a984981c4f93b6a3dd351961beaa0f3f9": {
+    "38cb5a799bc63efada78c6ee7c7d2bb1f1db971d": {
       "workers": {
-        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!",
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/event-registration/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/page": "rsc",
+        "app/event-registration/page": "rsc",
         "app/(auth-pages)/sign-in/page": "rsc",
         "app/protected/page": "rsc"
       }
     },
-    "6c668780afd5dca3d327686e3cd9f98a1eb3498f": {
+    "52472850fc347291ce4341f84ea50f95470641c1": {
       "workers": {
-        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!",
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/event-registration/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/page": "rsc",
+        "app/event-registration/page": "rsc",
         "app/(auth-pages)/sign-in/page": "rsc",
         "app/protected/page": "rsc"
       }
     },
-    "a77a68e8a0a40d8488755a3efac4b5454681b580": {
+    "680c921de6e766b228bbe9afa917f4b3c5283ec6": {
       "workers": {
-        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!",
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/event-registration/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/page": "rsc",
+        "app/event-registration/page": "rsc",
         "app/(auth-pages)/sign-in/page": "rsc",
         "app/protected/page": "rsc"
       }
     },
-    "a9fc7a983019804c462a84c341c054d8bef7fb42": {
+    "9891c883f916904fb5c060ecbb335c6cbc3f2a12": {
       "workers": {
-        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!",
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/event-registration/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/page": "rsc",
+        "app/event-registration/page": "rsc",
         "app/(auth-pages)/sign-in/page": "rsc",
         "app/protected/page": "rsc"
       }
     },
-    "b87d41431321832635cabbd2d00fd4e0a57661c8": {
+    "a01b08775731ac226c0433dd945ac9621ae4b774": {
       "workers": {
-        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!",
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/event-registration/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/page": "rsc",
+        "app/event-registration/page": "rsc",
         "app/(auth-pages)/sign-in/page": "rsc",
         "app/protected/page": "rsc"
       }
     },
-    "dafb19db2569bc316859bbe8fb9bb9d5622237de": {
+    "a527ffc50d4f6e9f53f98070fdf0c76890aa08e5": {
       "workers": {
-        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!",
-        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fmedia%2Fmeet%2FMeet%20Patel%2FHackathon%2Fvit%20Hackathon%2Fdevfest%2Fapp%2Factions.ts%22%2C%5B%22forgotPasswordAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22signInAction%22%2C%22resetPasswordAction%22%2C%22%24%24ACTION_2%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/event-registration/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/protected/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5CDesktop%5C%5Cvit-hackathon%5C%5Capp%5C%5Cactions.ts%22%2C%5B%22signUpAction%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%2C%22signOutAction%22%2C%22forgotPasswordAction%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22signInAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/page": "rsc",
+        "app/event-registration/page": "rsc",
         "app/(auth-pages)/sign-in/page": "rsc",
         "app/protected/page": "rsc"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "cvJ1YBdq/IhJbu5jvaKGLcL+4OjYyqKQ9oOhDJCnmvo="
+  "encryptionKey": "dabUj/H2BkBGVB6K/h1pZsZiIg1cIjlf4Qfzy3YdhKw="
 }

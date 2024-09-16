@@ -1,4 +1,4 @@
-// File: /media/meet/Meet Patel/Hackathon/vit Hackathon/devfest/app/(auth-pages)/sign-in/page.tsx
+// File: C:\Users\Lenovo\OneDrive\Desktop\vit-hackathon\app\(auth-pages)\sign-in\page.tsx
 import * as entry from '../../../../../app/(auth-pages)/sign-in/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

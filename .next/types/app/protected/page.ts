@@ -1,4 +1,4 @@
-// File: /media/meet/Meet Patel/Hackathon/vit Hackathon/devfest/app/protected/page.tsx
+// File: C:\Users\Lenovo\OneDrive\Desktop\vit-hackathon\app\protected\page.tsx
 import * as entry from '../../../../app/protected/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
