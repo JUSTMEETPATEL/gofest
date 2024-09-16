@@ -17,11 +17,11 @@ import {
 
 // Mock data for products
 const products = [
-  { id: 1, name: "Fest T-Shirt", price: 250, category: "Clothing", image: "/placeholder.svg?height=200&width=200", description: "Comfortable cotton t-shirt with festival logo" },
-  { id: 2, name: "Festival Cap", price: 15, category: "Accessories", image: "/placeholder.svg?height=200&width=200", description: "Adjustable cap with embroidered festival logo" },
-  { id: 3, name: "Festival Sticker Pack", price: 5, category: "Accessories", image: "/placeholder.svg?height=200&width=200", description: "Set of 5 waterproof festival-themed stickers" },
-  { id: 4, name: "Festival Tote Bag", price: 20, category: "Bags", image: "/placeholder.svg?height=200&width=200", description: "Durable canvas tote bag with festival artwork" },
-  { id: 5, name: "Festival School Bag", price: 35, category: "Bags", image: "/placeholder.svg?height=200&width=200", description: "Spacious backpack with multiple compartments and festival design" },
+  { id: 1, name: "Fest T-Shirt", price: 250, category: "Clothing", image: "/img/tshirt.jpg?height=200&width=200", description: "Comfortable cotton t-shirt with festival logo" },
+  { id: 2, name: "Festival Cap", price: 15, category: "Accessories", image: "/img/cap.jpg?height=200&width=200", description: "Adjustable cap with embroidered festival logo" },
+  { id: 3, name: "Festival Sticker Pack", price: 5, category: "Accessories", image: "/img/sticker.jpg?height=200&width=200", description: "Set of 5 waterproof festival-themed stickers" },
+  { id: 4, name: "Festival Tote Bag", price: 20, category: "Bags", image: "/img/tote.jpg?height=200&width=200", description: "Durable canvas tote bag with festival artwork" },
+  { id: 5, name: "Festival School Bag", price: 35, category: "Bags", image: "/img/bag.jpg?height=200&width=200", description: "Spacious backpack with multiple compartments and festival design" },
 ]
 
 export function FestivalMerchandise() {
