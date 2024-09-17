@@ -69,7 +69,17 @@ const Carousel = () => {
         </SplideSlide>
         <SplideSlide>
           <Image
-            src="/Gallery/picture4.jpeg"
+            src="/Gallery/picture8.jpeg"
+            width={500}
+            height={500}
+            alt="Image 4"
+            className={imageClassName}
+            loading="lazy"
+          />
+        </SplideSlide>
+        <SplideSlide>
+          <Image
+            src="/Gallery/picture5.jpeg"
             width={500}
             height={500}
             alt="Image 3"
@@ -79,17 +89,7 @@ const Carousel = () => {
         </SplideSlide>
         <SplideSlide>
           <Image
-            src="/Gallery/picture.jpeg"
-            width={500}
-            height={500}
-            alt="Image 3"
-            className={imageClassName}
-            loading="lazy"
-          />
-        </SplideSlide>
-        <SplideSlide>
-          <Image
-            src="/Gallery/gallery6.avif"
+            src="/Gallery/picture8.jpeg"
             width={500}
             height={500}
             alt="Image 3"

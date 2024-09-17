@@ -11,9 +11,9 @@ import { CalendarDays, Download, Eye, MapPin, Package, Truck } from 'lucide-reac
 
 // Mock data
 const user = {
-  name: "Jane Doe",
-  email: "jane.doe@example.com",
-  phone: "+1 (555) 123-4567",
+  name: "Mukesh Kumar",
+  email: "mukesh.kumar@example.com",
+  phone: "+91 1234567890",
   avatar: "/placeholder.svg?height=100&width=100"
 }
 

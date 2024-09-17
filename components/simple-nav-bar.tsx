@@ -21,8 +21,8 @@ export function SimpleNavBar() {
               <Link href="/events" className="hover:bg-black-foreground hover:text-secondary px-3 py-2 rounded-md text-sm font-medium">
                 Events
               </Link>
-              <Link href="/user-profile" className="hover:bg-black-foreground hover:text-secondary px-3 py-2 rounded-md text-sm font-medium">
-                User Profile
+              <Link href="/profile" className="hover:bg-black-foreground hover:text-secondary px-3 py-2 rounded-md text-sm font-medium">
+                Profile
               </Link>
               <Link href="/merchandise" className="hover:bg-black-foreground hover:text-secondary px-3 py-2 rounded-md text-sm font-medium">
                 Merchandise
