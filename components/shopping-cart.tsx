@@ -9,9 +9,9 @@ import orders from 'razorpay/dist/types/orders';
 
 // Mock data for cart items
 const initialCartItems = [
-  { id: 1, name: "Wireless Earbuds", price: 1, image: "/placeholder.svg?height=80&width=80", quantity: 1 },
-  { id: 2, name: "Smart Watch", price: 2, image: "/placeholder.svg?height=80&width=80", quantity: 1 },
-  { id: 3, name: "Bluetooth Speaker", price: 2, image: "/placeholder.svg?height=80&width=80", quantity: 2 },
+  { id: 1, name: "Sticker", price: 25, image: "/img/sticker.jpg?height=80&width=80", quantity: 1 },
+  { id: 2, name: "T-Shirt", price: 250, image: "/img/tshirt.jpg?height=80&width=80", quantity: 1 },
+  { id: 3, name: "Tote Bag", price: 200, image: "/img/tote.jpg?height=80&width=80", quantity: 2 },
 ]
 
 export function ShoppingCart() {
@@ -40,7 +40,7 @@ export function ShoppingCart() {
       const data = await response.json();
       const options = {
         key: "rzp_test_uSYhqUZMk386dy", // Enter the Key ID generated from the Dashboard
-        amount: "58718", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+        amount: (total*100).toString(), // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
         currency: "INR",
         name: "Acme Corp",
         description: "Test Transaction",
@@ -70,7 +70,7 @@ export function ShoppingCart() {
               <img src={item.image} alt={item.name} className="w-20 h-20 object-cover rounded" />
               <div className="flex-grow">
                 <h2 className="text-xl font-semibold">{item.name}</h2>
-                <p className="text-gray-400">${item.price.toFixed(2)}</p>
+                <p className="text-gray-400">₹{item.price.toFixed(2)}</p>
               </div>
               <div className="flex items-center space-x-2">
                 <Button
@@ -108,7 +108,7 @@ export function ShoppingCart() {
             <h2 className="text-2xl font-semibold mb-4">Order Summary</h2>
             <div className="flex justify-between items-center text-xl">
               <span>Total:</span>
-              <span>${total.toFixed(2)}</span>
+              <span>₹{total.toFixed(2)}</span>
             </div>
             <Button
               className="w-full mt-6 bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-lg text-lg font-semibold transition-colors"

@@ -19,8 +19,8 @@ import {
 const products = [
   { id: 1, name: "Fest T-Shirt", price: 250, category: "Clothing", image: "/img/tshirt.jpg?height=200&width=200", description: "Comfortable cotton t-shirt with festival logo" },
   { id: 2, name: "Festival Cap", price: 15, category: "Accessories", image: "/img/cap.jpg?height=200&width=200", description: "Adjustable cap with embroidered festival logo" },
-  { id: 3, name: "Festival Sticker Pack", price: 5, category: "Accessories", image: "/img/sticker.jpg?height=200&width=200", description: "Set of 5 waterproof festival-themed stickers" },
-  { id: 4, name: "Festival Tote Bag", price: 20, category: "Bags", image: "/img/tote.jpg?height=200&width=200", description: "Durable canvas tote bag with festival artwork" },
+  { id: 3, name: "Festival Sticker Pack", price: 25, category: "Accessories", image: "/img/sticker.jpg?height=200&width=200", description: "Set of 5 waterproof festival-themed stickers" },
+  { id: 4, name: "Festival Tote Bag", price: 200, category: "Bags", image: "/img/tote.jpg?height=200&width=200", description: "Durable canvas tote bag with festival artwork" },
   { id: 5, name: "Festival School Bag", price: 35, category: "Bags", image: "/img/bag.jpg?height=200&width=200", description: "Spacious backpack with multiple compartments and festival design" },
 ]
 
@@ -85,7 +85,7 @@ export function FestivalMerchandise() {
             <img src={product.image} alt={product.name} className="w-full h-48 object-cover" />
             <div className="p-4">
               <h2 className="text-xl font-semibold mb-2">{product.name}</h2>
-              <p className="text-gray-400 mb-2">${product.price}</p>
+              <p className="text-gray-400 mb-2">₹{product.price}</p>
               <p className="text-sm text-gray-300 mb-4">{product.description}</p>
               <div className="flex justify-between items-center">
                 <Dialog>
@@ -99,7 +99,7 @@ export function FestivalMerchandise() {
                       <DialogTitle>{product.name}</DialogTitle>
                       <DialogDescription>
                         <img src={product.image} alt={product.name} className="w-full h-64 object-cover mb-4 rounded-lg" />
-                        <p className="text-lg font-semibold mb-2">${product.price}</p>
+                        <p className="text-lg font-semibold mb-2">₹{product.price}</p>
                         <p className="text-gray-300 mb-4">{product.description}</p>
                         <Button className="w-full">
                           <ShoppingCart className="mr-2 h-4 w-4" /> 

@@ -30,8 +30,8 @@ const orders = [
     total: 79.99, 
     status: "Delivered",
     items: [
-      { name: "Conference T-Shirt", price: 29.99, image: "/placeholder.svg?height=80&width=80", quantity: 2, size: "L" },
-      { name: "Tech Sticker Pack", price: 9.99, image: "/placeholder.svg?height=80&width=80", quantity: 2 }
+      { name: "Conference T-Shirt", price: 250, image: "/img/tshirt.jpg?height=80&width=80", quantity: 2, size: "L" },
+      { name: "Tech Sticker Pack", price: 25, image: "/img/sticker.jpg?height=80&width=80", quantity: 2 }
     ],
     tracking: "1Z999AA1123456784"
   },
@@ -41,7 +41,7 @@ const orders = [
     total: 149.99, 
     status: "Shipped",
     items: [
-      { name: "Wireless Headphones", price: 149.99, image: "/placeholder.svg?height=80&width=80", quantity: 1 }
+      { name: "Tote Bag", price: 200, image: "/img/tote.jpg?height=80&width=80", quantity: 1 }
     ],
     tracking: "1Z999AA1123456785"
   },
@@ -51,7 +51,7 @@ const orders = [
     total: 29.99, 
     status: "Delivered",
     items: [
-      { name: "Programming Book", price: 29.99, image: "/placeholder.svg?height=80&width=80", quantity: 1 }
+      { name: "School Bag", price: 800, image: "/img/bag.jpg?height=80&width=80", quantity: 1 }
     ],
     tracking: "1Z999AA1123456786"
   },
@@ -159,7 +159,7 @@ export function EnhancedUserAccountPage() {
                           </p>
                         </div>
                         <div className="flex items-center space-x-4 mt-2 sm:mt-0">
-                          <p className="font-semibold">${order.total.toFixed(2)}</p>
+                          <p className="font-semibold">₹{order.total.toFixed(2)}</p>
                           <Badge variant={order.status === "Delivered" ? "default" : "secondary"}>
                             {order.status}
                           </Badge>
@@ -186,8 +186,8 @@ export function EnhancedUserAccountPage() {
                                       <div>
                                         <p className="font-semibold">{item.name}</p>
                                         <p className="text-gray-400">
-                                          ${item.price.toFixed(2)} x {item.quantity}
-                                          {item.size && ` - Size: ${item.size}`}
+                                          ₹{item.price.toFixed(2)} x {item.quantity}
+                                          {item.size && ` - Size: ₹{item.size}`}
                                         </p>
                                       </div>
                                     </li>
