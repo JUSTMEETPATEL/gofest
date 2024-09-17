@@ -3,9 +3,6 @@
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
-import { hasEnvVars } from '@/utils/supabase/check-env-vars'
-import { EnvVarWarning } from './env-var-warning'
-import HeaderAuth from './header-auth'
 
 export function SimpleNavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -15,7 +12,7 @@ export function SimpleNavBar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-xl font-bold">
+            <Link href="/" className="text-l font-bold">
               MyApp
             </Link>
           </div>
