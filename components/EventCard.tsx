@@ -1,5 +1,6 @@
 import React from 'react';
 import MainButton from "./MainButton";
+import Link from 'next/link';
 
 interface EventCardProps {
   title: string;
@@ -40,7 +41,14 @@ const EventCard = ({
         <progress className="w-full h-2" max="100" value={value}></progress>
       </div> */}
       <div className="flex justify-center items-center mt-6">
-        <MainButton text="Register" />
+        <Link
+          href="/event-registration"
+        >
+          <MainButton
+
+            text="Register"
+          />
+        </Link>
       </div>
     </div>
   );

@@ -18,14 +18,17 @@ export function SimpleNavBar() {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <Link href="/event-registration" className="hover:bg-black-foreground hover:text-secondary px-3 py-2 rounded-md text-sm font-medium">
-                Event Register
+              <Link href="/events" className="hover:bg-black-foreground hover:text-secondary px-3 py-2 rounded-md text-sm font-medium">
+                Events
               </Link>
               <Link href="/user-profile" className="hover:bg-black-foreground hover:text-secondary px-3 py-2 rounded-md text-sm font-medium">
                 User Profile
               </Link>
               <Link href="/merchandise" className="hover:bg-black-foreground hover:text-secondary px-3 py-2 rounded-md text-sm font-medium">
                 Merchandise
+              </Link>
+              <Link href="/cart" className="hover:bg-black-foreground hover:text-secondary px-3 py-2 rounded-md text-sm font-medium">
+                Cart
               </Link>
             </div>
           </div>
