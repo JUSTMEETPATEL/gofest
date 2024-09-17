@@ -13,7 +13,7 @@ export function SimpleNavBar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-xl font-bold">
-              MyApp
+              Go Fest
             </Link>
           </div>
           <div className="hidden md:block">

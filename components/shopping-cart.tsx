@@ -47,10 +47,10 @@ export function ShoppingCart() {
         handler: function (response) {
           // Handle successful payment here
           console.log(response);
-          window.location.href = '/user-profile'; // Redirect to user profile
+          window.location.href = '/profile'; // Redirect to user profile
         },
         prefill: {
-          name: "Meet Pateo",
+          name: "Meet Patel",
           email: "justmeetpatel@gmail.com",
           contact: "6355728962"
         },
