@@ -38,35 +38,22 @@ export function ShoppingCart() {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       const data = await response.json();
-      console.log(process.env.RAZORPAY_ID);
       const options = {
-        key: process.env.RAZORPAY_ID!, // Enter the Key ID generated from the Dashboard
-        amount: (total * 100).toString(), // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+        key: process.env.RAZORPAY_ID!,
+        amount: (total * 100).toString(),
         currency: "INR",
         name: "PSVM",
         description: "Test Transaction",
-        order_id: data.id, // This is a sample Order ID. Pass the `id` obtained in the previous step
+        order_id: data.orderId,
         handler: function (response) {
           // Handle successful payment here
-          console.log(response);
-          window.location.href = '/profile'; // Redirect to user profile
-        },
-        prefill: {
-          name: "Meet Patel",
-          email: "justmeetpatel@gmail.com",
-          contact: "6355728962"
-        },
-        notes: {
-          address: "Razorpay Corporate Office"
-        },
-        theme: {
-          color: "#3399cc"
         }
       };
       const rzp1 = new Razorpay(options);
       rzp1.open();
     } catch (error) {
       console.error('Error during payment initialization:', error);
+      alert('Failed to initiate payment. Please try again later.');
     }
   };
 
