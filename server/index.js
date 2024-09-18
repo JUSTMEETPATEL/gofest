@@ -3,10 +3,11 @@ const cors = require("cors")
 const bodyParser = require("body-parser")
 const app = express()
 const Razorpay = require("razorpay")
+require("dotenv").config();
 
 const instance = new Razorpay({
-    key_id: 'rzp_test_uSYhqUZMk386dy',
-    key_secret: 'caeXoIJA102f6d0J5KP0qHlt'
+    key_id: process.env.RAZORPAY_ID,
+    key_secret: process.env.RAZORPAY_SECRET
 })
 
 app.listen(8000)

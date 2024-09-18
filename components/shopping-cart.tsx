@@ -5,6 +5,7 @@ import useRazorpay from "react-razorpay";
 import { Minus, Plus, Trash2 } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+require("dotenv").config();
 
 // Mock data for cart items
 const initialCartItems = [
@@ -37,8 +38,9 @@ export function ShoppingCart() {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       const data = await response.json();
+      console.log(process.env.RAZORPAY_ID);
       const options = {
-        key: "rzp_test_uSYhqUZMk386dy", // Enter the Key ID generated from the Dashboard
+        key: process.env.RAZORPAY_ID!, // Enter the Key ID generated from the Dashboard
         amount: (total * 100).toString(), // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
         currency: "INR",
         name: "PSVM",
