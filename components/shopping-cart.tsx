@@ -43,7 +43,7 @@ export function ShoppingCart() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ amount: total * 100 }), // Adjust payload as needed
+        body: JSON.stringify({ amount: total * 100 }), // Adjust payload 
       });
 
       if (!response.ok) {
