@@ -1,61 +1,122 @@
-'use client'
+'use client';
 
-import { useState } from 'react'
-import useRazorpay from "react-razorpay";
-import { Minus, Plus, Trash2 } from 'lucide-react'
-import { Button } from "@/components/ui/button"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-require("dotenv").config();
+import { useState } from 'react';
+import useRazorpay from 'react-razorpay';
+import { Contact, Minus, Plus, Trash2 } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+require('dotenv').config();
+
+declare global {
+  interface Window {
+    Razorpay: any;
+  }
+}
 
 // Mock data for cart items
 const initialCartItems = [
-  { id: 1, name: "Sticker", price: 25, image: "/img/sticker.jpg?height=80&width=80", quantity: 1 },
-  { id: 2, name: "T-Shirt", price: 250, image: "/img/tshirt.jpg?height=80&width=80", quantity: 1 },
-  { id: 3, name: "Tote Bag", price: 200, image: "/img/tote.jpg?height=80&width=80", quantity: 2 },
-]
+  { id: 1, name: 'Sticker', price: 25, image: '/img/sticker.jpg?height=80&width=80', quantity: 1 },
+  { id: 2, name: 'T-Shirt', price: 250, image: '/img/tshirt.jpg?height=80&width=80', quantity: 1 },
+  { id: 3, name: 'Tote Bag', price: 200, image: '/img/tote.jpg?height=80&width=80', quantity: 2 },
+];
 
 export function ShoppingCart() {
-  const [cartItems, setCartItems] = useState(initialCartItems)
+  const [cartItems, setCartItems] = useState(initialCartItems);
+  const total = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
   const updateQuantity = (id: number, newQuantity: number) => {
-    setCartItems(cartItems.map(item =>
-      item.id === id ? { ...item, quantity: newQuantity } : item
-    ))
-  }
+    setCartItems(cartItems.map(item => (item.id === id ? { ...item, quantity: newQuantity } : item)));
+  };
 
   const removeItem = (id: number) => {
-    setCartItems(cartItems.filter(item => item.id !== id))
-  }
+    setCartItems(cartItems.filter(item => item.id !== id));
+  };
 
-  const total = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0)
+  const [isProcessing, setIsProcessing] = useState(false);
 
-  // Razorpay INIT
-  const [Razorpay] = useRazorpay()
-  const payNow = async () => {
+  const handlePayment = async () => {
+    setIsProcessing(true);
+
     try {
-      const response = await fetch('http://localhost:8000/order');
+      const response = await fetch('/api/create-order', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ amount: total * 100 }), // Adjust payload as needed
+      });
+
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       const data = await response.json();
       const options = {
-        key: process.env.RAZORPAY_ID!,
+        key: process.env.NEXT_PUBLIC_RAZORPAY_ID,
         amount: (total * 100).toString(),
         currency: "INR",
         name: "PSVM",
         description: "Test Transaction",
         order_id: data.orderId,
-        handler: function (response) {
+        handler: function (response: any) {
           // Handle successful payment here
-        }
+          console.log("Payment Successful", response);
+          window.location.href = "/profile"
+        },
+        // prefill: {
+        //   name: "Meet Patel",
+        //   email: "justmeetpatel@gmail.com",
+        //   contact: "6355728962",
+        // },
+        theme: {
+          color: "#3399cc",
+        },
       };
-      const rzp1 = new Razorpay(options);
+      const rzp1 = new window.Razorpay(options);
       rzp1.open();
     } catch (error) {
       console.error('Error during payment initialization:', error);
       alert('Failed to initiate payment. Please try again later.');
+    } finally {
+      setIsProcessing(false);
     }
   };
+
+  // Razorpay initialization
+  const Razorpay = useRazorpay();
+
+  // const payNow = async () => {
+  //   try {
+  //     const response = await fetch('/api/order', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json',
+  //       },
+  //       body: JSON.stringify({ amount: total * 100 }), // Adjust payload as needed
+  //     });
+
+  //     if (!response.ok) {
+  //       throw new Error(`HTTP error! status: ${response.status}`);
+  //     }
+
+  //     const data = await response.json();
+  //     const options = {
+  //       key: process.env.RAZORPAY_ID!,
+  //       amount: (total * 100).toString(),
+  //       currency: "INR",
+  //       name: "PSVM",
+  //       description: "Test Transaction",
+  //       order_id: data.orderId,
+  //       handler: function (response: any) {
+  //         // Handle successful payment here
+  //       }
+  //     };
+  //     const rzp1 = new Razorpay(options);
+  //     rzp1.open();
+  //   } catch (error) {
+  //     console.error('Error during payment initialization:', error);
+  //     alert('Failed to initiate payment. Please try again later.');
+  //   }
+  // };
 
   return (
     <div className="min-h-screen bg-black text-gray-200 p-8">
@@ -110,7 +171,8 @@ export function ShoppingCart() {
             </div>
             <Button
               className="w-full mt-6 bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-lg text-lg font-semibold transition-colors"
-              onClick={payNow}
+              onClick={handlePayment}
+              disabled={isProcessing}
             >
               Proceed to Checkout
             </Button>
@@ -118,14 +180,12 @@ export function ShoppingCart() {
         ) : (
           <div className="text-center mt-12">
             <p className="text-2xl">Your cart is empty</p>
-            <Button
-              className="mt-4 bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded-lg text-lg font-semibold transition-colors"
-            >
+            <Button className="mt-4 bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded-lg text-lg font-semibold transition-colors">
               Continue Shopping
             </Button>
           </div>
         )}
       </div>
     </div>
-  )
+  );
 }
