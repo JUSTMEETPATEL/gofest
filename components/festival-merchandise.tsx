@@ -28,7 +28,7 @@ export function FestivalMerchandise() {
   const [searchTerm, setSearchTerm] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("All")
   const [sortBy, setSortBy] = useState("name")
-  const [selectedProduct, setSelectedProduct] = useState(null)
+  const [selectedProduct, setSelectedProduct] = useState<{ id: number; name: string; price: number; category: string; image: string; description: string; } | null>(null)
 
   // Filter and sort products
   const filteredProducts = products

@@ -1,4 +1,3 @@
-import Navbar from "./Navbar";
 import Hero from "./Hero"
 import Details from "./Details"
 import Carousel from "./Carousel"
@@ -10,12 +9,12 @@ import EventCard from "./EventCard";
 
 
 export {
-Navbar,
-Hero,
-Details,
-Carousel,
-BannerStrip,
-EventCard,
-Why,
-Footer,
+
+    Hero,
+    Details,
+    Carousel,
+    BannerStrip,
+    EventCard,
+    Why,
+    Footer,
 }

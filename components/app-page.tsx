@@ -1,12 +1,10 @@
 'use client'
 
 import { HeroSectionComponent } from './app-components-hero-section'
-import { EventShowcaseComponent } from './app-components-event-showcase'
 import { KeyFeaturesComponent } from './app-components-key-features'
 import { MerchandiseSectionComponent } from './app-components-merchandise-section'
-import { TestimonialSectionComponent } from './app-components-testimonial-section'
-import { SponsorShowcaseComponent } from './app-components-sponsor-showcase'
 import { FooterComponent } from './app-components-footer'
+import { EventShowcaseComponent } from './app-components-event-showcase'
 
 export function Page() {
   return (
@@ -15,8 +13,6 @@ export function Page() {
       <EventShowcaseComponent />
       <KeyFeaturesComponent />
       <MerchandiseSectionComponent />
-      <TestimonialSectionComponent />
-      <SponsorShowcaseComponent />
       <FooterComponent />
     </main>
   )
