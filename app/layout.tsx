@@ -7,6 +7,7 @@ import { ThemeProvider } from "next-themes";
 import "./globals.css";
 import {SimpleNavBar}  from "@/components/simple-nav-bar";
 import Footer from "@/components/Footer"
+import { Toaster } from 'react-hot-toast'
 
 
 const defaultUrl = process.env.VERCEL_URL
@@ -27,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={GeistSans.className} suppressHydrationWarning>
       <body className="bg-background text-foreground">
+      <Toaster />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

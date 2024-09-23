@@ -36,6 +36,7 @@
     "react-awesome-reveal": "^4.2.14",
     "react-dom": "18.2.0",
     "react-feather": "^2.0.10",
+    "react-hot-toast": "^2.4.1",
     "react-razorpay": "^2.0.1",
     "styles": "^0.2.1",
     "swiper": "^11.1.14"
